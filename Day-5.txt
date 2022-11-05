@@ -1,0 +1,21 @@
+public class room {
+    float length;
+    float breath;
+  
+    room(float x, float y){
+        length = x;
+        breath = y;
+    }
+    room(float x){
+        length = breath = x;
+    }
+    float area(){
+        return (length*breath);
+    }
+    public static void main(String[] args) {
+        room obj1 = new room(10,15);
+        room obj2 = new room(15);
+        System.out.println( obj1.area() );
+        System.out.println( obj2.area() );       
+    }
+}
