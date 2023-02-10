@@ -1,0 +1,59 @@
+
+Java List
+For this problem, we have  types of queries you can perform on a List:
+Insert  at index :
+Insert
+x y
+Delete the element at index :
+Delete
+x
+Given a list, , of  integers, perform  queries on the list. Once all queries are completed, 
+print the modified list as a single line of space-separated integers.
+Input Format
+The first line contains an integer,  (the initial number of elements in ). 
+The second line contains  space-separated integers describing . 
+The third line contains an integer,  (the number of queries). 
+The  subsequent lines describe the queries, and each query is described over two lines:
+If the first line of a query contains the String Insert, then the second line contains 
+two space separated integers , and the value  must be inser…
+[23:29, 2/10/2023] Pankaj Parmar Virat VIT: /*
+Problem Statement
+Welcome to Day 8! Check out a video review of dictionaries and hashmaps here
+	(https://www.youtube.com/watch?v=nbDhDMYxUEw&feature=youtu.be), or just jump
+	right into the problem.
+You are given a phone book that consists of your friend's names and their phone number.
+	After that you will be given your friend's name as query. For each query, print the
+	phone number of your friend.
+Input Format
+The first line will have an integer N denoting the number of entries in the phone book
+	Each entry consists of two lines: a name and the corresponding phone number. 
+After these, there will be some queries. Each query will contain name of a friend. Read
+	the queries until end-of-file.
+Constraints
+A name consists of only lower-case English letters and it may be in the format 
+'first-name last-name' or in the format 'first-name'. Each phone number has exactly
+	8 digits without any leading zeros.
+1<=N<=104
+1<=queries<=104
+Output Format
+For each case, print "Not found" without quotes, if the friend has no entry in the
+	phone book. Otherwise, print the friend's name and phone number. See sample output
+	for the exact format.
+To make the problem easier, we provided a portion of the code in the editor. You can
+	either complete that code or write completely on your own.
+Sample Input
+3
+sam
+99912222
+tom
+11122222
+harry
+12299933
+sam
+edward
+harry
+Sample Output
+sam=99912222
+Not found
+harry=12299933
+
